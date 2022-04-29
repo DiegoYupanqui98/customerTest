@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.sign{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign h2{
+    font-size: 5rem;
+    color: #f79121;
+    margin: 50px 0px;
+}
+
+.sign h3{
+    font-size: 2rem;
+    color: #f79121;
+    margin: 0;
+}
+
+.open-sign .state{
+    color: #548037;
+}
+.closed-sign .state{
+    color: #FA0908;
+}
+
+.state{
+font-size: 8rem;
+margin: 50px;
+}
+
+.footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+
+}
+
+.footer h4{
+    max-width: 40%;
+}
