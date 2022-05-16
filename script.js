@@ -16,7 +16,7 @@ setInterval(() => {
 
     const stringTime = `${hourString}:${minuteString}`
 
-    if(stringTime > startTime1 && stringTime <endTime1 | stringTime > startTime2 && stringTime <endTime2 ){
+    if(stringTime >= startTime1 && stringTime <endTime1 | stringTime >= startTime2 && stringTime <endTime2 ){
     document.querySelector(".open-sign").classList.remove("hidden")
     document.querySelector(".closed-sign").classList.add("hidden")
     }
