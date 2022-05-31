@@ -59,3 +59,8 @@ margin: 50px;
     max-width: 40%;
     font-size: 2em;
 }
+
+.footer img{
+    width : 500px;
+    height: auto;
+}
