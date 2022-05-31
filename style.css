@@ -22,13 +22,14 @@ body{
 }
 
 .sign h2{
-    font-size: 5rem;
+    font-size: 6rem;
     color: #f79121;
     margin: 50px 0px;
 }
 
 .sign h3{
     font-size: 3rem;
+    text-shadow: 1px 1px 1px;
     color: #f79121;
     margin: 0;
 }
@@ -41,7 +42,7 @@ body{
 }
 
 .state{
-font-size: 8rem;
+font-size: 10rem;
 margin: 50px;
 }
 
@@ -49,6 +50,7 @@ margin: 50px;
     display: flex;
     width: 90%;
     justify-content: space-evenly;
+    margin-top: 50px;
     margin-bottom: 20px;
 
 }
