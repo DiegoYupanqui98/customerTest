@@ -25,7 +25,3 @@ setInterval(() => {
         document.querySelector(".closed-sign").classList.remove("hidden")
     }
 }, 10);
-
-setInterval(() => {
-    location.reload()
-}, 1000);
