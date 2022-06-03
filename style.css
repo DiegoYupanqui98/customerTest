@@ -41,6 +41,10 @@ body{
     color: #FA0908;
 }
 
+.weekend-sign .state{
+    color: #FA0908;
+}
+
 .state{
 font-size: 10em;
 margin: 50px;
