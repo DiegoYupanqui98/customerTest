@@ -50,6 +50,7 @@ margin: 50px;
     display: flex;
     width: 100%;
     justify-content: space-evenly;
+    align-items: center;
     margin-top: 50px;
     margin-bottom: 20px;
 
@@ -61,7 +62,6 @@ margin: 50px;
 }
 
 .footer img{
-    width : 500px;
-    height: 300px;
-    height: auto;
+    width : 700px;
+    height: 370px;
 }
