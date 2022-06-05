@@ -17,7 +17,7 @@ setInterval(() => {
 
     const stringTime = `${hourString}:${minuteString}`
 
-    if (day > 5) {
+    if (day > 6 | day < 1) {
         document.querySelector(".weekend-sign").classList.remove("hidden")
         document.querySelector(".closed-sign").classList.add("hidden")
         document.querySelector(".open-sign").classList.add("hidden")
