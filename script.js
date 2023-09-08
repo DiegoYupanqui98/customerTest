@@ -11,13 +11,15 @@ setInterval(() => {
 
     const hour = date.getHours()
     const minutes = date.getMinutes()
+    //const day = date.getDay()
     const day = date.getDay()
+    console.log(day)
     const hourString = hour / 10 < 1 ? `0${hour}` : hour.toString()
     const minuteString = minutes / 10 < 1 ? `0${minutes}` : minutes.toString()
 
     const stringTime = `${hourString}:${minuteString}`
 
-    if (day > 6 | day < 1) {
+    if (day == 6 | day == 0) {
         document.querySelector(".weekend-sign").classList.remove("hidden")
         document.querySelector(".closed-sign").classList.add("hidden")
         document.querySelector(".open-sign").classList.add("hidden")

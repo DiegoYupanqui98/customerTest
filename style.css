@@ -7,6 +7,8 @@ body{
     align-items: center;
     height: 100vh;
     font-family:Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgb(255, 255, 255) 45%, rgb(141, 190, 253) 100%);
+    
 }
 
 .hidden{
@@ -23,14 +25,14 @@ body{
 
 .sign h2{
     font-size: 6em;
-    color: #f79121;
+    color: #232F3E;
     margin: 50px 0px;
 }
 
 .sign h3{
     font-size: 3em;
     text-shadow: 1px 1px 1px;
-    color: #f79121;
+    color: #1A98FF;
     margin: 0;
 }
 
@@ -66,6 +68,11 @@ margin: 50px;
 }
 
 .footer img{
-    width : 700px;
-    height: 370px;
+    margin-top: -128px;
+    width : 1122px;
+    height: 800px;
+}
+
+.message{
+    opacity: 70%;
 }
